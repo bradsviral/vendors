@@ -1,0 +1,268 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>1-1 EarBuds Vendor - Verr's Vendors</title>
+    <style>
+        body {
+            background-color: #111;
+            color: white;
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 20px;
+            line-height: 1.6;
+        }
+
+        .back-link {
+            color: #8000ff;
+            text-decoration: none;
+            display: inline-flex;
+            align-items: center;
+            margin-bottom: 20px;
+        }
+
+        .back-link:hover {
+            text-decoration: underline;
+        }
+
+        .product-container {
+            max-width: 1200px;
+            margin: 0 auto;
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 40px;
+            padding: 20px;
+        }
+
+        .product-image {
+            background-color: white;
+            padding: 20px;
+            border-radius: 10px;
+            width: 100%;
+            height: auto;
+        }
+
+        .product-details {
+            padding: 20px;
+        }
+
+        .product-title {
+            font-size: 24px;
+            margin-bottom: 10px;
+        }
+
+        .price-container {
+            margin: 20px 0;
+        }
+
+        .original-price {
+            color: #666;
+            text-decoration: line-through;
+            margin-right: 10px;
+        }
+
+        .sale-price {
+            font-size: 24px;
+            font-weight: bold;
+        }
+
+        .savings {
+            color: #ff4444;
+            font-size: 14px;
+        }
+
+        .files-table {
+            width: 100%;
+            border-collapse: collapse;
+            margin: 20px 0;
+            background-color: #222;
+            border-radius: 8px;
+            overflow: hidden;
+        }
+
+        .files-table th, .files-table td {
+            padding: 12px;
+            text-align: left;
+            border-bottom: 1px solid #333;
+        }
+
+        .files-table th {
+            background-color: #333;
+        }
+
+        .quantity-input {
+            width: 60px;
+            padding: 8px;
+            margin: 20px 0;
+            background-color: #222;
+            border: 1px solid #444;
+            color: white;
+            border-radius: 4px;
+        }
+
+        .button-container {
+            display: flex;
+            gap: 10px;
+            margin: 20px 0;
+        }
+
+        .add-to-cart {
+            background-color: #8000ff;
+            color: white;
+            border: none;
+            padding: 12px 24px;
+            border-radius: 4px;
+            cursor: pointer;
+            font-weight: bold;
+        }
+
+        .gpay-button {
+            background-color: white;
+            color: black;
+            border: none;
+            padding: 12px 24px;
+            border-radius: 4px;
+            cursor: pointer;
+            font-weight: bold;
+        }
+
+        .share-container {
+            margin: 20px 0;
+        }
+
+        .share-button {
+            background: none;
+            border: none;
+            color: white;
+            cursor: pointer;
+            margin-right: 10px;
+        }
+
+        .description {
+            margin: 20px 0;
+            padding: 20px;
+            background-color: #222;
+            border-radius: 8px;
+        }
+
+        .features-list {
+            list-style: none;
+            padding: 0;
+        }
+
+        .features-list li {
+            margin: 10px 0;
+            display: flex;
+            align-items: center;
+        }
+
+        .features-list li::before {
+            content: "✓";
+            margin-right: 10px;
+            color: #8000ff;
+        }
+
+        @media (max-width: 768px) {
+            .product-container {
+                grid-template-columns: 1fr;
+            }
+        }
+    </style>
+</head>
+<body>
+    <a href="index.html" class="back-link">← All Products</a>
+
+    <div class="product-container">
+        <div class="product-image-container">
+            <img src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/image-Jv69569AwS1HB4j5WjBZyslvjY8XAt.png" alt="EarPods Vendor" class="product-image">
+        </div>
+
+        <div class="product-details">
+            <h1 class="product-title">1-1 EarBuds Vendor</h1>
+
+            <div class="price-container">
+                <span class="original-price">$14.99</span>
+                <span class="sale-price">$8.99</span>
+                <div class="savings">You save $6.00 (40%)</div>
+            </div>
+
+            <div class="files-info">
+                <h3>5 Files</h3>
+                <table class="files-table">
+                    <thead>
+                        <tr>
+                            <th>File Name</th>
+                            <th>Type</th>
+                            <th>Size</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>AIRPODS VENDOR</td>
+                            <td>PDF</td>
+                            <td>65.5 KB</td>
+                        </tr>
+                        <tr>
+                            <td>AIRPODS VENDOR</td>
+                            <td>PDF</td>
+                            <td>65.5 KB</td>
+                        </tr>
+                        <tr>
+                            <td>AIRPODS VENDOR</td>
+                            <td>PDF</td>
+                            <td>65.5 KB</td>
+                        </tr>
+                        <tr>
+                            <td>AIRPODS VENDOR</td>
+                            <td>PDF</td>
+                            <td>65.5 KB</td>
+                        </tr>
+                        <tr>
+                            <td>AIRPODS VENDOR</td>
+                            <td>PDF</td>
+                            <td>65.5 KB</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+
+            <div>
+                <label for="quantity">Quantity</label>
+                <input type="number" id="quantity" class="quantity-input" value="1" min="1">
+            </div>
+
+            <div class="button-container">
+                <button class="add-to-cart">ADD TO CART</button>
+                <button class="gpay-button">Buy with GPay</button>
+            </div>
+
+            <div class="share-container">
+                Share: 
+                <button class="share-button">
+                    <i class="fab fa-facebook"></i>
+                </button>
+                <button class="share-button">
+                    <i class="fab fa-twitter"></i>
+                </button>
+            </div>
+
+            <div class="description">
+                <p>"WORLD-WIDE SHIPPING"</p>
+                <p>Are you tired of searching for the perfect vendor for your business?</p>
+                <p>Look no further with our vendors!</p>
+                <p>Save time looking for vendors.</p>
+                <p><em>Take advantage of Verr's vendor to;</em></p>
+
+                <ul class="features-list">
+                    <li>Begin the reselling side hustle 💰</li>
+                    <li>Unlock Verr's 1:1 high quality vendor 🔒</li>
+                </ul>
+
+                <h3>WHAT YOU WILL RECEIVE</h3>
+                <p>A digital PDF via email will be sent to your inbox with the vendor link, allowing you to get in contact with the supplier, where you will then purchase the actual physical product</p>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
