@@ -257,6 +257,29 @@
             font-size: 30px;
             font-weight: bold;
         }
+
+        /* Media Query for mobile devices */
+        @media (max-width: 768px) {
+            /* Make the product grid stack vertically */
+            .grid {
+                grid-template-columns: 1fr; /* Stacks the products in a single column */
+            }
+
+            /* Adjust product card margins to fit mobile */
+            .product-card {
+                margin-bottom: 20px; /* Add spacing between stacked products */
+            }
+
+            /* Optionally adjust the header, image size, etc., for mobile */
+            .products-header {
+                flex-direction: column;
+                text-align: center;
+            }
+
+            .product-image {
+                height: auto; /* Allow images to scale properly */
+            }
+        }
     </style>
 </head>
 <body>
@@ -276,7 +299,7 @@
             <span class="close">&times;</span>
 
             <!-- Image Above the Text -->
-            <img src="icon.png" alt="Welcome Image" class="welcome-image">
+            <img src="C:\Users\Bradsviral\Documents\Resell\IMAGES\icon.png" alt="Welcome Image" class="welcome-image">
 
             <h2>WELCOME TO BRAD'S VENDORS!</h2>
             <p>I'm so happy to help you start your resell journey today! We sell digital vendor links that instantly deliver to your email upon purchase. If you have any questions contact <strong>Ecombrad@tuta.io</strong></p>
@@ -309,7 +332,7 @@
             <!-- 1-1 SPIDER HOODIE VENDOR -->
             <div class="product-card">
                 <div class="save-badge">Save 50%</div>
-                <img src="https://placehold.co/400x400/fff/000?text=SPIDER+HOODIE" alt="1-1 SPIDER HOODIE VENDOR" class="product-image">
+                <img src="airpod.webp" alt="1-1 SPIDER HOODIE VENDOR" class="product-image">
                 <div class="product-info">
                     <h3 class="product-title">1-1 EarBuds Vendor</h3>
                     <div class="product-price">
@@ -323,9 +346,9 @@
             <!-- 1-1 DENIM VENDOR -->
             <div class="product-card">
                 <div class="save-badge">Save 60%</div>
-                <img src="https://placehold.co/400x400/fff/000?text=DENIM+VENDOR" alt="1-1 DENIM VENDOR" class="product-image">
+                <img src="resell.webp" alt="1-1 DENIM VENDOR" class="product-image">
                 <div class="product-info">
-                    <h3 class="product-title">1-1 COLOGNE VENDOR</h3>
+                    <h3 class="product-title">Brads Mentorship</h3>
                     <div class="product-price">
                         <span class="original-price">$13.99</span>
                         <span class="current-price">$6.75</span>
@@ -337,7 +360,7 @@
             <!-- 1-1 HECKSTAR VENDOR -->
             <div class="product-card">
                 <div class="save-badge">Save 55%</div>
-                <img src="https://placehold.co/400x400/fff/000?text=HECKSTAR+VENDOR" alt="1-1 HECKSTAR VENDOR" class="product-image">
+                <img src="airmax.webp" alt="1-1 HECKSTAR VENDOR" class="product-image">
                 <div class="product-info">
                     <h3 class="product-title">1-1 EARPODS MAX VENDOR</h3>
                     <div class="product-price">
